@@ -35,9 +35,5 @@ http://localhost:8000/api/products/1
 ```
 We assume you want to update a product that already exists. Add the same data as the POST method and change some values (not the variable names). If the request works, you can use the GET method to confirm the updated data.
 
-### Task Completion Time
-This task took me 40 minutes: 25 minutes for coding and 15 minutes working with the API. I encountered a `404` error because the project was created in Laravel 11, where you must manually install the API folder using the command:
-```
-php artisan install:api
-```
+
 
